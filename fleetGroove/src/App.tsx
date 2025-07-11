@@ -6,8 +6,11 @@ import {
   BarChart3,
   Truck,
   Map,
+  Fuel,
+  MessageCircle,
 } from "lucide-react";
 import logo from "./assets/FleetGroove_Tech_Company_Logo_with_Wave_Element-removebg-preview.png";
+import pic from "./assets/IMG-20250224-WA0003.jpg";
 
 export default function FleetGrooveLandingPage() {
   return (
@@ -58,8 +61,9 @@ export default function FleetGrooveLandingPage() {
                 Your Transport & Logistics, Smarter.
               </h1>
               <p className="text-lg md:text-xl mb-6 text-gray-200">
-                FleetGroove delivers next-gen fleet monitoring, transport
-                coordination, and compliance — all in one place.
+                FleetGroove provides seamless, data-driven solutions for fleet
+                management, driver coordination, travel logistics, and vehicle
+                intelligence — all in one place.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button
@@ -173,6 +177,18 @@ export default function FleetGrooveLandingPage() {
             },
             {
               icon: (
+                <MessageCircle className="w-10 h-10 text-yellow-400 mx-auto mb-4" />
+              ),
+              title: "Real Time Communication ",
+              desc: "Live communication and messaging.",
+            },
+            {
+              icon: <Fuel className="w-10 h-10 text-yellow-400 mx-auto mb-4" />,
+              title: "Fuel Tracking",
+              desc: "Track fuel cost, reports.",
+            },
+            {
+              icon: (
                 <CheckCircle className="w-10 h-10 text-yellow-400 mx-auto mb-4" />
               ),
               title: "Local Pricing & Support",
@@ -279,7 +295,7 @@ export default function FleetGrooveLandingPage() {
         {/* Footer */}
         <footer
           id="contact"
-          className="py-12 text-center text-sm text-gray-400 bg-gray-900 border-t border-gray-700"
+          className="py-12 text-center flex flex-col justify-items-center items-center text-sm text-gray-400 bg-gray-900 border-t border-gray-700"
         >
           <h3 className="text-lg font-semibold text-yellow-400 mb-2">
             Get in Touch
@@ -299,6 +315,13 @@ export default function FleetGrooveLandingPage() {
               +233 595 545 929
             </a>
           </p>
+          <img
+            className="rounded-[50%] py-2"
+            src={pic}
+            height={60}
+            width={120}
+            alt="CEO pic"
+          />
           <p className="mt-4">
             &copy; {new Date().getFullYear()} FleetGroove. Made in Ghana.
           </p>
