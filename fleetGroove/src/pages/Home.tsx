@@ -1,6 +1,6 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router";
-import { motion, useInView } from "motion/react";
+import { motion} from "motion/react";
 import {
   ShieldCheck, CreditCard, School, Store, ArrowRight, CheckCircle,
   MapPin, Bell, Clock, Package, LayoutDashboard, Star,

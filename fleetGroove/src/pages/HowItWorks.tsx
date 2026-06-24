@@ -1,4 +1,3 @@
-import { Link } from "react-router";
 import { motion } from "motion/react";
 import { ShieldCheck, Users, Store, School, MapPin, Bell, CreditCard, CheckCircle, Package, Clock, ArrowRight, ChevronDown, ChevronUp } from "lucide-react";
 import { FadeIn, CTABanner } from "../shared";

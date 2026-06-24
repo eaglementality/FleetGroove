@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Store, ShieldCheck, LayoutDashboard, Bell, CreditCard, TrendingUp, Package, Users, Star, ArrowRight, CheckCircle, Clock } from "lucide-react";
+import { Store, ShieldCheck, LayoutDashboard, Bell, CreditCard, TrendingUp, Users, Star, ArrowRight, CheckCircle, Clock } from "lucide-react";
 import { FadeIn, CTABanner } from "../shared";
 import { Link } from "react-router";
 
