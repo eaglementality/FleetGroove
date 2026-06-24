@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import { Users, Store, School, ShieldCheck, Heart, Lightbulb, Globe, ArrowRight } from "lucide-react";
 import { FadeIn, CTABanner } from "../shared";
 import { Link } from "react-router";
+import me from "../assets/IMG-20250224-WA0003.jpg";
 
 const values = [
   { icon: ShieldCheck, title: "Safety Above All", desc: "Every decision we make starts with one question: does this make school deliveries safer for children?" },
@@ -11,12 +12,13 @@ const values = [
 ];
 
 const team = [
-  { name: "Ama Boateng", role: "Co-Founder & CEO", bio: "Former education policy advisor with 10+ years scaling EdTech startups across West Africa.", avatar: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&h=200&fit=crop&auto=format" },
-  { name: "Nana Kweku Asante", role: "Co-Founder & CTO", bio: "Ex-Google engineer obsessed with logistics technology and last-mile delivery infrastructure.", avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&auto=format" },
-  { name: "Efua Mensah", role: "Head of Partnerships", bio: "Built school network programmes at three NGOs before joining FleetGroove at inception.", avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&auto=format" },
-  { name: "Kofi Darko", role: "Head of Operations", bio: "Supply chain specialist who previously managed distribution for a national pharmacy network.", avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&auto=format" },
-  { name: "Abena Osei", role: "Head of Design", bio: "Product designer focused on inclusive, accessible experiences for diverse user groups.", avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&auto=format" },
-  { name: "Samuel Tetteh", role: "Head of Vendor Success", bio: "Former market researcher who built a vendor onboarding programme that is now the industry standard.", avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&auto=format" },
+  // { name: "Ama Boateng", role: "Co-Founder & CEO", bio: "Former education policy advisor with 10+ years scaling EdTech startups across West Africa.", avatar: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=200&h=200&fit=crop&auto=format" },
+  { name: "Jesse Yeboah", role: "Co-Founder & CEO", bio: "Software engineer with a passion for building scalable solutions that improve lives.", avatar: me },
+  // { name: "Nana Kweku Asante", role: "Co-Founder & CTO", bio: "Ex-Google engineer obsessed with logistics technology and last-mile delivery infrastructure.", avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&auto=format" },
+  // { name: "Efua Mensah", role: "Head of Partnerships", bio: "Built school network programmes at three NGOs before joining FleetGroove at inception.", avatar: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&auto=format" },
+  // { name: "Kofi Darko", role: "Head of Operations", bio: "Supply chain specialist who previously managed distribution for a national pharmacy network.", avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&auto=format" },
+  // { name: "Abena Osei", role: "Head of Design", bio: "Product designer focused on inclusive, accessible experiences for diverse user groups.", avatar: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&h=200&fit=crop&auto=format" },
+  // { name: "Samuel Tetteh", role: "Head of Vendor Success", bio: "Former market researcher who built a vendor onboarding programme that is now the industry standard.", avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&auto=format" },
 ];
 
 const milestones = [
